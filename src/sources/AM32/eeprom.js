@@ -7,7 +7,7 @@ const RESET_DELAY_MS = 1000;
 
 const PAGE_SIZE = 0x0400;
 const EEPROM_OFFSET = 0x7c00;
-const LAYOUT_SIZE = 0xB0;
+const LAYOUT_SIZE = 0xB7;
 
 const FLASH_VERSION_OFFSET = 0x10C0;
 const FLASH_VERSION_SIZE = 14;
@@ -140,8 +140,36 @@ const LAYOUT = {
     offset: 0x29,
     size: 1,
   },
-  STARTUP_MELODY: {
+  DRIVE_BY_RPM: {
     offset: 0x30,
+    size: 1,
+  },
+  RPM_MIN: {
+    offset: 0x31,
+    size: 1,
+  },
+  RPM_MAX: {
+    offset: 0x32,
+    size: 1,
+  },
+  SPEED_KP: {
+    offset: 0x33,
+    size: 1,
+  },
+  SPEED_KI: {
+    offset: 0x34,
+    size: 1,
+  },
+  SPEED_KD: {
+    offset: 0x35,
+    size: 1,
+  },
+  SPEED_INT_LIMIT: {
+    offset: 0x36,
+    size: 1,
+  },
+  STARTUP_MELODY: {
+    offset: 0x37,
     size: 128,
   },
 };
