@@ -22,6 +22,10 @@
       "name": "HGLRC 60A",
       "fileName": "HGLRC"
     },
+    "HGLRC_35A": {
+      "name": "HGLRC 35A",
+      "fileName": "HGLRC35"
+    },
     "IFlight_50A": {
       "name": "iFlight 50A",
       "fileName": "IFLIGHT"

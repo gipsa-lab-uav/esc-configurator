@@ -196,7 +196,7 @@ const SETTINGS_LAYOUT_1 = [
     min: 0,
     max: 255,
     step: 1,
-    displayFactor: 1
+    displayFactor: 1,
   },
   {
     name: 'SPEED_INT_LIMIT',
@@ -311,10 +311,10 @@ const DEFAULT_SETTINGS_1 = {
   DRIVE_BY_RPM: 0,
   RPM_MIN: 3,
   RPM_MAX: 24,
-  SPEED_KP: 40,
-  SPEED_KI: 40,
-  SPEED_KD: 100,
-  SPEED_INT_LIMIT: 20,
+  SPEED_KP: 31,
+  SPEED_KI: 3,
+  SPEED_KD: 0,
+  SPEED_INT_LIMIT: 255,
   STARTUP_MELODY: [2, 58, 4, 32, 52, 66, 13, 0, 69, 45, 13, 0, 52, 66, 13, 0, 78, 39, 211, 0, 69, 45, 208, 25, 52, 25, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 };
 
